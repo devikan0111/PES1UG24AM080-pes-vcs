@@ -19,58 +19,58 @@ This project is a functional, Git-inspired Version Control System (VCS) implemen
   
   <img width="940" height="214" alt="image" src="https://github.com/user-attachments/assets/e3c9fd83-59fb-49a1-8d71-c9fcb7972e82" />
   
-    *Output showing passing tests for blob storage, deduplication, and integrity.* [cite: 1]
+    *Output showing passing tests for blob storage, deduplication, and integrity.* 
 
 * **1B: Sharded Directory Structure**
 
 <img width="940" height="123" alt="image" src="https://github.com/user-attachments/assets/5f651a8b-136a-47fd-a6a1-a1fc67f0ef47" />
     
-    Verification of the .pes/objects directory structure showing two-character sharding. [cite: 2]
+    Verification of the .pes/objects directory structure showing two-character sharding. 
 
 ### Phase 2: Tree Construction
 * **2A: Test Tree Output**
 
   <img width="940" height="206" alt="image" src="https://github.com/user-attachments/assets/a6fdfc8f-9d01-469c-847a-2e8b37228edf" />
 
-    *Confirmation of successful tree serialization and deterministic hashing.* [cite: 3]
+    *Confirmation of successful tree serialization and deterministic hashing.* 
 
 * **2B: Raw Tree Hex Dump**
 
   <img width="940" height="123" alt="image" src="https://github.com/user-attachments/assets/ac9d3d3c-2fc6-478c-9167-6d8bc3a48b27" />
   
-    *Binary representation of a tree object showing file modes, hashes, and names.* [cite: 4]
+    *Binary representation of a tree object showing file modes, hashes, and names.* 
 
 ### Phase 3: Staging Area (Index)
 * **3A: Add and Status Sequence**
 
   <img width="940" height="206" alt="image" src="https://github.com/user-attachments/assets/707e41f7-ded2-4936-b463-1c90768a1382" />
 
-    *Workflow demonstrating repository initialization and staging files for commit.* [cite: 5]
+    *Workflow demonstrating repository initialization and staging files for commit.*
 
 * **3B: Index File Content**
 
   <img width="940" height="172" alt="image" src="https://github.com/user-attachments/assets/478a32bf-a164-4adc-b214-8d53f5313f2b" />
   
-    *The internal state of the .pes/index file in text format.* [cite: 6]
+    *The internal state of the .pes/index file in text format.* 
 
 ### Phase 4: Commits and History
 * **4A: Commit Log**
 
   <img width="940" height="125" alt="image" src="https://github.com/user-attachments/assets/f600b659-c0b8-4732-a666-f699790775d9" />
 
-    *The output of `./pes log` showing the commit history, authors, and timestamps.* [cite: 7]
+    *The output of `./pes log` showing the commit history, authors, and timestamps.*
 
 * **4B: Object Growth**
 
   <img width="940" height="517" alt="image" src="https://github.com/user-attachments/assets/efe982e9-b91c-455f-b5bb-782a17d62ad6" />
 
-    *A list of all objects generated in the .pes directory after several operations.* [cite: 8]
+    *A list of all objects generated in the .pes directory after several operations.* 
 
 * **4C: Branch References**
 
   <img width="940" height="70" alt="image" src="https://github.com/user-attachments/assets/ed95ca68-b7f8-4c61-af15-782ac66ea181" />
  
-    *The current hash stored in the main branch reference file.* [cite: 9]
+    *The current hash stored in the main branch reference file.* 
 
 
 
