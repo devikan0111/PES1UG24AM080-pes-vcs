@@ -25,7 +25,7 @@ This project is a functional, Git-inspired Version Control System (VCS) implemen
 
 <img width="940" height="123" alt="image" src="https://github.com/user-attachments/assets/5f651a8b-136a-47fd-a6a1-a1fc67f0ef47" />
     
-    *Verification of the .pes/objects directory structure showing two-character sharding.* [cite: 2]
+    Verification of the .pes/objects directory structure showing two-character sharding. [cite: 2]
 
 ### Phase 2: Tree Construction
 * **2A: Test Tree Output**
